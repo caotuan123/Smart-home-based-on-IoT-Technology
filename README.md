@@ -40,6 +40,7 @@ the ESP8266EX chip which is a system on chip that supports wifi and has a microp
 
 ## 4. Schematics
 I designed it in EasyEDA you can find these files in (PCB/)
+
 <img src="docs/2relaycontroller.png" 
         alt="Picture" 
         width= 500
