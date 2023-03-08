@@ -20,21 +20,19 @@
 
 #include "ArduinoJson.h"
 /* 1. Define the WiFi credentials */
-//#define WIFI_SSID "Pillango16a"
-//#define WIFI_PASSWORD "wifimanhlam16a4"
 #define WIFI_SSID "projekt"
 #define WIFI_PASSWORD "13579011"
 // For the following credentials, see examples/Authentications/SignInAsUser/EmailPassword/EmailPassword.ino
 
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyDwGU9_kjILlNzcCBR4A5N_38pCKLjArlo"
+#define API_KEY ""
 
 /* 3. Define the RTDB URL */
-#define DATABASE_URL "https://tuan-iot-home-default-rtdb.europe-west1.firebasedatabase.app" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define DATABASE_URL "" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
 /* 4. Define the user Email and password that alreadey registerd or added in your project */
-#define USER_EMAIL "caoanhtuan@gmail.com"
-#define USER_PASSWORD "123123123"
+#define USER_EMAIL ""
+#define USER_PASSWORD ""
 
 #define SPI_SS_PIN 15 // select pin for SPI
 

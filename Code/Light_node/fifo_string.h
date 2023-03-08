@@ -2,7 +2,8 @@
 #define _fifo_string_hpp_
 
 #include <Arduino.h>
-// FifoString class create an FIFO to hold message that not yet process by the node
+// The FifoString class creates a FIFO to hold messages that have
+// not yet been processed by the node.
 class FifoString
 {
 private:
