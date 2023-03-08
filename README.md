@@ -32,7 +32,7 @@ also it saves cost because no other infrastructure is needed to implement this w
 To control and connect those devices I use the ESP12F modlue, this modlue uses 
 the ESP8266EX chip which is a system on chip that supports wifi and has a microprocessor enough to complete the basic tasks of the system. In this project I use 6 ESP12F modules and 2 of them are used as a gateway.
 ## 3. Database structure
-<img src="docs/database_structure.png" 
+<img src="docs/Database_structure.png" 
         alt="Picture" 
         width= 500
         style="display: block; margin: 0 auto" />
