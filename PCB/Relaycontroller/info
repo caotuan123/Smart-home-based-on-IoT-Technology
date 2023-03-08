@@ -1,0 +1,387 @@
+{
+  "uuid": "81e2501a7870f33c16590920db86d5f3",
+  "path": "Offline/Light",
+  "name": "Light",
+  "content": "PCB for ESP8266, Rellay, and 2 3,7V battery",
+  "created_at": "2022-10-20 23:04:53",
+  "updated_at": "2023-03-08 10:19:13",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "a01edd4f8f1d8da4a97834d074880ab1",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "af256d485acf4c69a731d8fef4a0e043": 1,
+        "bc592b9ff1f34d8cb0068d58bb000cb8": 2,
+        "5cbe824183374fac8e4c1ae848199ce3": 2,
+        "bacf5553da266925c44144ce5fdc0a97": 2,
+        "00b97629d6334958b5e1d023c24b8e5e": 1,
+        "63738bd946394b9e8b36c1a2de90195a": 1,
+        "fb7ee6e47dd246b2a6b08b033427a782": 2,
+        "668ab294f16640dd989194a67e608991": 1,
+        "3bd346201730447d8b13f2875353d226": 1,
+        "d3bd89d0df574c86acbf216d65e77066": 2,
+        "94b9cfc5ce8d4a7d8bc89acc5b55e56a": 2,
+        "206dff9e913f434b93630475b4a1ad4d": 2,
+        "ac3a93b382cb4a98bf30adeb0896cb98": 2,
+        "c9d9bca6c8b14622aabcb42c05a2dcde": 5,
+        "f294c6f68b3f41b39b1865bcaee66594": 2,
+        "f24e5adea18f47bc99e8bc1e169d2b3a": 1,
+        "2a5d3ea9ae4c6c12263413ad720b76e0": 1,
+        "a33fed4c1a174355b4de431a2083bda0": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "STDN-3A24-ADJ",
+          1,
+          "STDN-3A24-ADJ",
+          "1",
+          {
+            "BOM_Manufacturer": "Hestore",
+            "BOM_Manufacturer Part": "STDN-3A24-ADJ",
+            "BOM_Supplier": "Hestore",
+            "BOM_Supplier Part": "STDN-3A24-ADJ",
+            "puuid": "e374446eda9d4e56a23de24e788430ac",
+            "uuid": "af256d485acf4c69a731d8fef4a0e043"
+          }
+        ],
+        [
+          "1µF",
+          1,
+          "1206 (3216 METRIC) (CAPACITOR)",
+          "C1",
+          {
+            "BOM_Manufacturer Part": "JMK316ABJ107ML-T",
+            "BOM_Supplier Part": "587-3395-1-ND",
+            "BOM_Supplier": "Digi-Key",
+            "puuid": "e94af426d5e742a7b455e3c629f9f7ee",
+            "uuid": "f294c6f68b3f41b39b1865bcaee66594"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "1206 (3216 METRIC) (CAPACITOR)",
+          "C2",
+          {
+            "BOM_Manufacturer Part": "JMK316ABJ107ML-T",
+            "BOM_Supplier Part": "587-3395-1-ND",
+            "BOM_Supplier": "Digi-Key",
+            "puuid": "e94af426d5e742a7b455e3c629f9f7ee",
+            "uuid": "f294c6f68b3f41b39b1865bcaee66594"
+          }
+        ],
+        [
+          "1N4007",
+          2,
+          "1N4007",
+          "D2,D3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "657af58560f244dda482b974ec9d577d",
+            "uuid": "94b9cfc5ce8d4a7d8bc89acc5b55e56a"
+          }
+        ],
+        [
+          "1N5408",
+          1,
+          "DO-201AD_BD5.3-L8.4-P12.50-D1.4-RD",
+          "D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STARSEA",
+            "BOM_Manufacturer Part": "1N5408",
+            "BOM_Supplier Part": "C87459",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ba4a753162c8448790556d107c1b6560",
+            "uuid": "2a5d3ea9ae4c6c12263413ad720b76e0"
+          }
+        ],
+        [
+          "30R300UU",
+          1,
+          "FUSE-TH_L11.4-W3.0-P5.08-D1.0-S1.2",
+          "F1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C142898",
+            "BOM_Manufacturer": "Littelfuse",
+            "BOM_Manufacturer Part": "30R300UU",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "edca95fc226441bf8c52118645926753",
+            "uuid": "f24e5adea18f47bc99e8bc1e169d2b3a"
+          }
+        ],
+        [
+          "GCT DCJ250-10-A-K1-K",
+          1,
+          "GCT DCJ250-10-A-K1-K",
+          "J1",
+          {
+            "BOM_Manufacturer": "GCT",
+            "BOM_Manufacturer Part": "DCJ250-10-A-K1-K",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Supplier Part": "2073-DCJ250-10-A-K1-K-ND",
+            "puuid": "288d438c328d4f2cbf3b3f8b68f543f4",
+            "uuid": "63738bd946394b9e8b36c1a2de90195a"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          1,
+          "HDR-M-2.54_1X3",
+          "J4",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "6c2c91c8049b4953b2cc23a37f009de3",
+            "uuid": "668ab294f16640dd989194a67e608991"
+          }
+        ],
+        [
+          "SRD-DC3V-SL-C",
+          2,
+          "RELAY-TH_SRD-DCXXV-SL-C",
+          "K1,K2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C688864",
+            "BOM_Manufacturer": "Ningbo Songle Relay",
+            "BOM_Manufacturer Part": "SRD-DC3V-SL-C",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "23e231420b704a0fbc6ddc5b8c2f6b9f",
+            "uuid": "206dff9e913f434b93630475b4a1ad4d"
+          }
+        ],
+        [
+          "LED-0603_R",
+          2,
+          "LED0603_RED",
+          "LED1,LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "Header-Female-2.54_1x8",
+          2,
+          "HDR-TH_8P-P2.54-V-F-1",
+          "P3,P4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "Female headerHDR1X8-2.54",
+            "BOM_Supplier Part": "C27438",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "366e1b46b2ba4833900571d9613df11d",
+            "uuid": "bacf5553da266925c44144ce5fdc0a97"
+          }
+        ],
+        [
+          "2N3904",
+          2,
+          "TO92-INLINE",
+          "Q2,Q3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "f0d3e1b443284dc4857ec5c20ad4a7a2",
+            "uuid": "bc592b9ff1f34d8cb0068d58bb000cb8"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "1206 RESISTOR",
+          "R1,R5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "1530ca54cc674de8ad7e362a752ae4ba",
+            "uuid": "c9d9bca6c8b14622aabcb42c05a2dcde"
+          }
+        ],
+        [
+          "100K",
+          1,
+          "R1206",
+          "R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C352036",
+            "BOM_Manufacturer": "ResistorToday",
+            "BOM_Manufacturer Part": "AECR1206F75K0K9",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "a33fed4c1a174355b4de431a2083bda0"
+          }
+        ],
+        [
+          "RESISTOR 1206",
+          2,
+          "1206 RESISTOR",
+          "R4,R6",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "1530ca54cc674de8ad7e362a752ae4ba",
+            "uuid": "c9d9bca6c8b14622aabcb42c05a2dcde"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "1206 RESISTOR",
+          "R7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "1530ca54cc674de8ad7e362a752ae4ba",
+            "uuid": "c9d9bca6c8b14622aabcb42c05a2dcde"
+          }
+        ],
+        [
+          "SS-12F68-G080",
+          1,
+          "SW-TH_G-SWITCH_SS-12F68-GXXX",
+          "SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2876029",
+            "BOM_Manufacturer": "G-Switch(品赞)",
+            "BOM_Manufacturer Part": "SS-12F68-G080",
+            "puuid": "314303555dab48f8b1e55a08cc2bfead",
+            "uuid": "00b97629d6334958b5e1d023c24b8e5e"
+          }
+        ],
+        [
+          "SWITCH",
+          1,
+          "KEY-4.5*4.5-2",
+          "SW2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BBJ",
+            "BOM_Manufacturer Part": "Switch,4.5*4.5*3.8Plastic head,260G, 0.25mm,Straight line",
+            "BOM_Supplier Part": "C71853",
+            "puuid": "a101c80759b54bc68de53afd291c1802",
+            "uuid": "3bd346201730447d8b13f2875353d226"
+          }
+        ],
+        [
+          "5X2 IDC CONNECTOR",
+          2,
+          "5X2 IDC CONNECTOR",
+          "U1,U4",
+          {
+            "BOM_Manufacturer Part": "5X2 IDC CONNECTOR",
+            "BOM_Supplier Part": "625-7252",
+            "BOM_Supplier": "RS-Online",
+            "puuid": "b1cf1de66a1e4c61bb2115824ce08261",
+            "uuid": "d3bd89d0df574c86acbf216d65e77066"
+          }
+        ],
+        [
+          "DB125-3.81-3P",
+          2,
+          "CONN-TH_3P-P3.81_L7.4-W11.4",
+          "U2,U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C395879",
+            "BOM_Manufacturer": "DIBO",
+            "BOM_Manufacturer Part": "DB125-3.81-3P",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b082eab59d4742aa9a7b7c65ea8d542a",
+            "uuid": "fb7ee6e47dd246b2a6b08b033427a782"
+          }
+        ],
+        [
+          "1P",
+          2,
+          "BHC-18650-1P",
+          "U5,U6",
+          {
+            "BOM_Manufacturer": "COMF",
+            "BOM_Manufacturer Part": "BHC-18650-1P",
+            "BOM_Supplier": "TME",
+            "BOM_Supplier Part": "BHC-18650-1P",
+            "puuid": "c46fd3904f1046fb91c604fadb6bbcdd",
+            "uuid": "ac3a93b382cb4a98bf30adeb0896cb98"
+          }
+        ]
+      ],
+      "updateTime": 1678267153,
+      "createTime": 1666299895,
+      "histories": [],
+      "created_at": "2022-10-20 23:04:55",
+      "updated_at": "2023-03-08 10:19:13"
+    },
+    {
+      "uuid": "d9521731dc9f836327562fd0ea67626b",
+      "puuid": "81e2501a7870f33c16590920db86d5f3",
+      "title": "PCB_Light",
+      "filename": "PCB_Light.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1530ca54cc674de8ad7e362a752ae4ba": 5,
+        "a101c80759b54bc68de53afd291c1802": 1,
+        "e94af426d5e742a7b455e3c629f9f7ee": 2,
+        "657af58560f244dda482b974ec9d577d": 2,
+        "23e231420b704a0fbc6ddc5b8c2f6b9f": 2,
+        "e374446eda9d4e56a23de24e788430ac": 1,
+        "ba4a753162c8448790556d107c1b6560": 1,
+        "edca95fc226441bf8c52118645926753": 1,
+        "288d438c328d4f2cbf3b3f8b68f543f4": 1,
+        "6c2c91c8049b4953b2cc23a37f009de3": 1,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 2,
+        "366e1b46b2ba4833900571d9613df11d": 2,
+        "f0d3e1b443284dc4857ec5c20ad4a7a2": 2,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 1,
+        "314303555dab48f8b1e55a08cc2bfead": 1,
+        "b1cf1de66a1e4c61bb2115824ce08261": 2,
+        "b082eab59d4742aa9a7b7c65ea8d542a": 2,
+        "c46fd3904f1046fb91c604fadb6bbcdd": 2
+      },
+      "BOM": [],
+      "updateTime": 1666905940,
+      "createTime": 1666695157,
+      "histories": [],
+      "created_at": "2022-10-25 12:52:37",
+      "updated_at": "2022-10-27 23:25:40"
+    }
+  ],
+  "sort": [],
+  "title": "Light",
+  "foldername": "Light",
+  "schfilename": "Light.json",
+  "schfilemtime": 1678267153443
+}

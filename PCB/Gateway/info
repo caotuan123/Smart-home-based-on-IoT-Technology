@@ -1,0 +1,344 @@
+{
+  "uuid": "7cfb71c2baa068eb861deae83c1b62ce",
+  "path": "Offline/Host",
+  "name": "Host",
+  "content": "",
+  "created_at": "2022-10-26 10:54:38",
+  "updated_at": "2023-03-08 10:08:02",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "11beacf036ccc6d3b027b4016ace5a73",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f24e5adea18f47bc99e8bc1e169d2b3a": 1,
+        "2a5d3ea9ae4c6c12263413ad720b76e0": 1,
+        "f294c6f68b3f41b39b1865bcaee66594": 4,
+        "c9d9bca6c8b14622aabcb42c05a2dcde": 2,
+        "ac3a93b382cb4a98bf30adeb0896cb98": 2,
+        "3bd346201730447d8b13f2875353d226": 2,
+        "668ab294f16640dd989194a67e608991": 1,
+        "63738bd946394b9e8b36c1a2de90195a": 1,
+        "00b97629d6334958b5e1d023c24b8e5e": 1,
+        "bacf5553da266925c44144ce5fdc0a97": 4,
+        "af256d485acf4c69a731d8fef4a0e043": 1,
+        "a33fed4c1a174355b4de431a2083bda0": 1,
+        "a9aa2b14f188405792fa87ac344499a4": 1,
+        "f5b1d9403e49471cab43bc5a1bec336f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "STDN-3A24-ADJ",
+          1,
+          "STDN-3A24-ADJ",
+          "1",
+          {
+            "BOM_Manufacturer": "Hestore",
+            "BOM_Manufacturer Part": "STDN-3A24-ADJ",
+            "BOM_Supplier": "Hestore",
+            "BOM_Supplier Part": "STDN-3A24-ADJ",
+            "puuid": "e374446eda9d4e56a23de24e788430ac",
+            "uuid": "af256d485acf4c69a731d8fef4a0e043"
+          }
+        ],
+        [
+          "1µF",
+          2,
+          "1206 (3216 METRIC) (CAPACITOR)",
+          "C1,C4",
+          {
+            "BOM_Manufacturer Part": "JMK316ABJ107ML-T",
+            "BOM_Supplier Part": "587-3395-1-ND",
+            "BOM_Supplier": "Digi-Key",
+            "puuid": "e94af426d5e742a7b455e3c629f9f7ee",
+            "uuid": "f294c6f68b3f41b39b1865bcaee66594"
+          }
+        ],
+        [
+          "100nF",
+          2,
+          "1206 (3216 METRIC) (CAPACITOR)",
+          "C2,C3",
+          {
+            "BOM_Manufacturer Part": "JMK316ABJ107ML-T",
+            "BOM_Supplier Part": "587-3395-1-ND",
+            "BOM_Supplier": "Digi-Key",
+            "puuid": "e94af426d5e742a7b455e3c629f9f7ee",
+            "uuid": "f294c6f68b3f41b39b1865bcaee66594"
+          }
+        ],
+        [
+          "1N5408",
+          1,
+          "DO-201AD_BD5.3-L8.4-P12.50-D1.4-RD",
+          "D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STARSEA",
+            "BOM_Manufacturer Part": "1N5408",
+            "BOM_Supplier Part": "C87459",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ba4a753162c8448790556d107c1b6560",
+            "uuid": "2a5d3ea9ae4c6c12263413ad720b76e0"
+          }
+        ],
+        [
+          "30R300UU",
+          1,
+          "FUSE-TH_L11.4-W3.0-P5.08-D1.0-S1.2",
+          "F1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C142898",
+            "BOM_Manufacturer": "Littelfuse",
+            "BOM_Manufacturer Part": "30R300UU",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "edca95fc226441bf8c52118645926753",
+            "uuid": "f24e5adea18f47bc99e8bc1e169d2b3a"
+          }
+        ],
+        [
+          "GCT DCJ250-10-A-K1-K",
+          1,
+          "GCT DCJ250-10-A-K1-K",
+          "J1",
+          {
+            "BOM_Manufacturer": "GCT",
+            "BOM_Manufacturer Part": "DCJ250-10-A-K1-K",
+            "BOM_Supplier": "Digi-Key",
+            "BOM_Supplier Part": "2073-DCJ250-10-A-K1-K-ND",
+            "puuid": "288d438c328d4f2cbf3b3f8b68f543f4",
+            "uuid": "63738bd946394b9e8b36c1a2de90195a"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "J2",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          1,
+          "HDR-M-2.54_1X4",
+          "J3",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          1,
+          "HDR-M-2.54_1X3",
+          "J4",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "",
+            "puuid": "6c2c91c8049b4953b2cc23a37f009de3",
+            "uuid": "668ab294f16640dd989194a67e608991"
+          }
+        ],
+        [
+          "Left",
+          2,
+          "HDR-TH_8P-P2.54-V-F-1",
+          "P1,P3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "Female headerHDR1X8-2.54",
+            "BOM_Supplier Part": "C27438",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "366e1b46b2ba4833900571d9613df11d",
+            "uuid": "bacf5553da266925c44144ce5fdc0a97"
+          }
+        ],
+        [
+          "Right",
+          2,
+          "HDR-TH_8P-P2.54-V-F-1",
+          "P2,P4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "Female headerHDR1X8-2.54",
+            "BOM_Supplier Part": "C27438",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "366e1b46b2ba4833900571d9613df11d",
+            "uuid": "bacf5553da266925c44144ce5fdc0a97"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "1206 RESISTOR",
+          "R1,R7",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "1530ca54cc674de8ad7e362a752ae4ba",
+            "uuid": "c9d9bca6c8b14622aabcb42c05a2dcde"
+          }
+        ],
+        [
+          "75kΩ",
+          1,
+          "R1206",
+          "R2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C352036",
+            "BOM_Manufacturer": "ResistorToday",
+            "BOM_Manufacturer Part": "AECR1206F75K0K9",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "a33fed4c1a174355b4de431a2083bda0"
+          }
+        ],
+        [
+          "SS-12F68-G080",
+          1,
+          "SW-TH_G-SWITCH_SS-12F68-GXXX",
+          "SW1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2876029",
+            "BOM_Manufacturer": "G-Switch(品赞)",
+            "BOM_Manufacturer Part": "SS-12F68-G080",
+            "puuid": "314303555dab48f8b1e55a08cc2bfead",
+            "uuid": "00b97629d6334958b5e1d023c24b8e5e"
+          }
+        ],
+        [
+          "SWITCH",
+          2,
+          "KEY-4.5*4.5-2",
+          "SW2,SW3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BBJ",
+            "BOM_Manufacturer Part": "Switch,4.5*4.5*3.8Plastic head,260G, 0.25mm,Straight line",
+            "BOM_Supplier Part": "C71853",
+            "puuid": "a101c80759b54bc68de53afd291c1802",
+            "uuid": "3bd346201730447d8b13f2875353d226"
+          }
+        ],
+        [
+          "1P",
+          2,
+          "BHC-18650-1P",
+          "U5,U6",
+          {
+            "BOM_Manufacturer": "COMF",
+            "BOM_Manufacturer Part": "BHC-18650-1P",
+            "BOM_Supplier": "TME",
+            "BOM_Supplier Part": "BHC-18650-1P",
+            "puuid": "c46fd3904f1046fb91c604fadb6bbcdd",
+            "uuid": "ac3a93b382cb4a98bf30adeb0896cb98"
+          }
+        ]
+      ],
+      "updateTime": 1678266482,
+      "createTime": 1666774478,
+      "histories": [],
+      "created_at": "2022-10-26 10:54:38",
+      "updated_at": "2023-03-08 10:08:02"
+    },
+    {
+      "uuid": "d83ff12b192d67870a78063eb4ee5a4f",
+      "puuid": "7cfb71c2baa068eb861deae83c1b62ce",
+      "title": "PCB_Host",
+      "filename": "PCB_Host.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e374446eda9d4e56a23de24e788430ac": 1,
+        "e94af426d5e742a7b455e3c629f9f7ee": 4,
+        "ba4a753162c8448790556d107c1b6560": 1,
+        "edca95fc226441bf8c52118645926753": 1,
+        "288d438c328d4f2cbf3b3f8b68f543f4": 1,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "6c2c91c8049b4953b2cc23a37f009de3": 1,
+        "366e1b46b2ba4833900571d9613df11d": 4,
+        "1530ca54cc674de8ad7e362a752ae4ba": 2,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 1,
+        "314303555dab48f8b1e55a08cc2bfead": 1,
+        "a101c80759b54bc68de53afd291c1802": 2,
+        "c46fd3904f1046fb91c604fadb6bbcdd": 2,
+        "282f7786cb6144d097ae00194c3e3fb3": 1
+      },
+      "BOM": [],
+      "updateTime": 1666945208,
+      "createTime": 1666846744,
+      "histories": [],
+      "created_at": "2022-10-27 06:59:04",
+      "updated_at": "2022-10-28 10:20:08"
+    },
+    {
+      "uuid": "f895b41563a692df5932651573ea5196",
+      "puuid": "7cfb71c2baa068eb861deae83c1b62ce",
+      "title": "PCB_Host_Smooth",
+      "filename": "PCB_Host_Smooth.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e374446eda9d4e56a23de24e788430ac": 1,
+        "e94af426d5e742a7b455e3c629f9f7ee": 4,
+        "ba4a753162c8448790556d107c1b6560": 1,
+        "edca95fc226441bf8c52118645926753": 1,
+        "288d438c328d4f2cbf3b3f8b68f543f4": 1,
+        "70aa5812f21f4991bf427395d51849f4": 1,
+        "6c2c91c8049b4953b2cc23a37f009de3": 1,
+        "366e1b46b2ba4833900571d9613df11d": 4,
+        "1530ca54cc674de8ad7e362a752ae4ba": 2,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 1,
+        "314303555dab48f8b1e55a08cc2bfead": 1,
+        "a101c80759b54bc68de53afd291c1802": 2,
+        "c46fd3904f1046fb91c604fadb6bbcdd": 2,
+        "282f7786cb6144d097ae00194c3e3fb3": 1
+      },
+      "BOM": [],
+      "updateTime": 1666944996,
+      "createTime": 1666944647,
+      "histories": [],
+      "created_at": "2022-10-28 10:10:47",
+      "updated_at": "2022-10-28 10:16:36"
+    }
+  ],
+  "sort": [],
+  "title": "Host",
+  "foldername": "Host",
+  "schfilename": "Host.json",
+  "schfilemtime": 1678266484413
+}
